@@ -38,6 +38,13 @@ public class InventoryController : MonoBehaviour
                         playerHealth.ObjectHealth((int)remainTime);
                     }
                     break;
+                case ItemType.Boom:
+                    GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+                    foreach (var enemy in enemies)
+                    {
+                        Destroy(enemy);
+                    }
+                    break;
             }
         }
     }
@@ -45,5 +52,6 @@ public class InventoryController : MonoBehaviour
 public enum ItemType
 {
     Bullet,
-    HP
+    HP,
+    Boom
 }

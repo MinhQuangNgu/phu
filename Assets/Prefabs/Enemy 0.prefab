@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 5380852311009807577}
   m_Layer: 7
   m_Name: Enemy 0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,6 +219,7 @@ MonoBehaviour:
   - {fileID: 905788246677255222, guid: f9204341b2f42054ab8801d570eed1fa, type: 3}
   - {fileID: 50506551775243790, guid: 7552c39fe356c8d419c130a5386f7966, type: 3}
   - {fileID: 5575792958958374247, guid: bb4a23a6074a6614ca31091b1d05f5a3, type: 3}
+  - {fileID: 1683337179005991997, guid: 2a18d23654ad82942b76edf93356dba6, type: 3}
 --- !u!114 &-2686009754184787962
 MonoBehaviour:
   m_ObjectHideFlags: 0
